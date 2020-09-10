@@ -1,6 +1,10 @@
 package main
 
 func main() {
+	//cmd := shell.Command{
+	//	Command: "sh",
+	//	Args: []string{"-c", "plan -input=false -out=tfplan"},
+	//}
 
 	cmd := shell.Command{
 		Command: "terraform",
@@ -11,7 +15,4 @@ func main() {
 		fmt.Printf("%v",err)
 	}
 	fmt.Println(o)
-	//output, _ := Plan()
-	//output, _ = Apply()
-	//log.Printf("AA %+v", output)
 }
