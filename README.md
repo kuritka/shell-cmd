@@ -1,4 +1,4 @@
-# shellcmd
+# shell-cmd
 blocking shell command
 
 
