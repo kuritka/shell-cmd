@@ -1,5 +1,11 @@
 package main
 
+import (
+	"fmt"
+
+	"github.com/kuritka/shell-cmd/shell"
+)
+
 func main() {
 	//cmd := shell.Command{
 	//	Command: "sh",

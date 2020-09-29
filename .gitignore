@@ -12,4 +12,26 @@
 *.out
 
 # Dependency directories (remove the comment below to include it)
-# vendor/
+vendor/
+
+### Vim ###
+# swap
+.sw[a-p]
+.*.sw[a-p]
+# session
+Session.vim
+# temporary
+.netrwhist
+# auto-generated tag files
+tags
+# End of Vim
+
+### VisualStudioCode ###
+.vscode/*
+.history
+*.code-workspace
+# End of https://www.gitignore.io/api/go,vim,emacs,visualstudiocode
+
+### JetBrains IDE ###
+.idea
+# End of idea tools
